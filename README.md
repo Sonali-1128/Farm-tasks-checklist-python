@@ -30,9 +30,9 @@ The main objectives of this project are to practice:
 - **Python**
 - **Google Colab**
 
-## Python Concepts Practiced
+## **Python Concepts Practiced**
 
-### 1. Python Lists
+### **1. Python Lists**
 
 Three lists are used in the project:
 
@@ -47,6 +47,7 @@ checklist = [
 
 completed_tasks = []
 incomplete_tasks = []
+```
 
 ### **2. Pop method**
 
@@ -64,14 +65,6 @@ checklist.pop()
 completed_tasks.append('Harvest tomatoes')
 
 incomplete_tasks.append('Apply fertilizer')
-```
-
-## **Project Output**
-
-```text
-checklist: []
-completed: ['Harvest tomatoes', 'Spray pesticide', 'Check soil moisture']
-incomplete: ['Apply fertilizer', 'Irrigate field']
 ```
 
 [View Farm Task Checklist PDF](./Farm_Task_Checklist.pdf)

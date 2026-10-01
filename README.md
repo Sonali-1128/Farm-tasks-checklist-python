@@ -48,21 +48,37 @@ checklist = [
 completed_tasks = []
 incomplete_tasks = []
 
-**### 2. Pop method**
-       checklist.pop()
+### **2. Pop method**
 
-**### 3. Append method**
+`pop()` removes the last task from the checklist.
 
-         completed_tasks.append('Harvest tomatoes')
+```python
+checklist.pop()
+```
 
-         incomplete_tasks.append('Apply fertilizer')
+### **3. Append method**
 
-**## Project Output**
+`append()` adds that task to the correct list.
 
-      checklist: []
+```python
+completed_tasks.append('Harvest tomatoes')
 
+incomplete_tasks.append('Apply fertilizer')
+```
+
+## **Project Output**
+
+```text
+checklist: []
 completed: ['Harvest tomatoes', 'Spray pesticide', 'Check soil moisture']
-
 incomplete: ['Apply fertilizer', 'Irrigate field']
+```
 
 [View Farm Task Checklist PDF](./Farm_Task_Checklist.pdf)
+
+## **Author**
+
+**Sonali Barley**
+Transitioning from agriculture into data analytics. Learning Python, Excel, Power BI, and SQL.
+
+[LinkedIn](https://www.linkedin.com/in/sonalibarley1)
